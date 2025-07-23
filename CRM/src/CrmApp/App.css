@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.email-composer {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.email-composer div {
+  margin-bottom: 15px;
+}
+
+.email-composer label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.email-composer input,
+.email-composer textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.email-composer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.email-composer button:hover {
+  background-color: #0056b3;
+}
