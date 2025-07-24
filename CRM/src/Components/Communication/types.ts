@@ -10,3 +10,21 @@ export interface Communication {
   timestamp: string;
   status: string;
 }
+
+export interface Customer {
+  id: string;
+  name: string;
+  joiningDate: string;
+  salary: number;
+}
+
+export interface Filter {
+  field: 'name' | 'joiningDate' | 'salary';
+  operator: 'greaterThan' | 'lessThan';
+  value: string | number;
+}
+
+export interface Report {
+  name: string;
+  filters: Filter[];
+}

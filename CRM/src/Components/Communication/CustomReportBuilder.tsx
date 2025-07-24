@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Filter, Customer } from '../types';
+import { Filter, Customer } from './types'
 import { FilterX, Plus, FileSpreadsheet } from 'lucide-react';
 
 // Sample data - replace with your actual data source
